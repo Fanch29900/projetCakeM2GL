@@ -1,0 +1,112 @@
+/* Fait par IA */
+
+body.public-body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background-color: #f4f7f6;
+}
+
+/* --- Header Public --- */
+.public-header {
+    background-color: #2e7d32; /* Vert ISEN / Citoyen */
+    color: white;
+    padding: 15px 0 0 0; /* On laisse de la place pour le menu en bas */
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.public-header .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 15px;
+}
+
+.public-logo {
+    background: white;
+    padding: 5px;
+    height: 60px;
+    border-radius: 4px;
+}
+
+.public-table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background: white;
+}
+
+.public-table th {
+    background-color: #1b5e20;
+    color: white;
+    padding: 15px;
+}
+
+.public-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.public-footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Style du logo (fond blanc et taille) */
+.logo-img {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    height: 50px;
+    width: auto;
+    display: block;
+    transition: transform 0.2s;
+}
+
+.logo-link:hover .logo-img {
+    transform: scale(1.05);
+}
+
+/* --- Menu de Navigation Public --- */
+.public-menu {
+    background-color: #1b5e20; /* Vert plus foncé pour le menu */
+    width: 100%;
+}
+
+.public-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centre les liens */
+}
+
+.public-menu li {
+    margin: 0;
+}
+
+.public-menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    display: block;
+    font-weight: 500;
+    transition: background 0.3s;
+}
+
+.public-menu li a:hover {
+    background-color: #43a047; /* Survol plus clair */
+}
+
+/* --- Ajustement du titre --- */
+.public-header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
